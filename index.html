@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kurumsal Web Site</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Link Swiper's CSS -->
+  	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  	<!-- Font Awesome CSS -->
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  	<!-- Aosjs CSS -->
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  	<style type="text/css">
+  		.swiper-container {
+		    width: 100%;
+		    height: 100%;
+		    overflow: hidden;
+		}
+		.swiper-slide {
+			height: 100%;
+		    text-align: center;
+		    font-size: 18px;
+		    background: #fff;
+		    display: -webkit-box;
+		    display: -ms-flexbox;
+		    display: -webkit-flex;
+		    display: flex;
+		    -webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		    -webkit-justify-content: center;
+		    justify-content: center;
+		    -webkit-box-align: center;
+		    -ms-flex-align: center;
+		    -webkit-align-items: center;
+		    align-items: center;
+		}
+
+		.swiper-container-b {
+	      	width: 100%;
+	      	height: 450px;
+	      	position: relative;
+	    }
+
+	    .swiper-slide-b {
+	      	background-position: center;
+	      	background-size: cover;
+	    }
+
+	    .swiper-button-next-b, .swiper-button-prev-b {
+		    position: absolute;
+		    top: 92%;
+		    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+		    height: var(--swiper-navigation-size);
+		    margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
+		    z-index: 10;
+		    cursor: pointer;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    color: #eb8f8f;
+		}
+		.swiper-button-next-b, .swiper-container-rtl .swiper-button-prev-b {
+		    right: 74%;
+		    color: #eb8f8f;
+		}
+		.swiper-button-prev-b, .swiper-container-rtl .swiper-button-next-b {
+		    left: 21%;
+		    color: #eb8f8f;
+		}
+		.swiper-pagination-b {
+		    position: absolute;
+		    text-align: right;
+		    transition: .3s opacity;
+		    transform: translate3d(0,0,0);
+		    z-index: 10;
+		    top: 90%;
+		    padding-right: 15px;
+		}
+
+  	</style>
+</head>
+<body>
+
+	<header>
+		<div class="header-container" id="header"  data-aos="fade-down">
+			<div class="header-children">
+				<div class="header-child">
+					<img src="assets/image/setting/logow.png" id="bar-logo">
+				</div>
+				<div class="header-child">
+					<ol class="header-items">
+						<li class="header-item">Ana Sayfa</li>
+						<li class="header-item">Başarılarımız</li>
+						<li class="header-item">Kayıt Ol</li>
+						<li class="header-item">İletişim</li>
+						<li class="header-item">S.S.S</li>
+					</ol>
+					<ol class="header-items">
+						<li class="header-contact-item">
+							<a href="" class="header-contact-link" style="color: #444">Kayıt Ol</a>
+						</li>
+						<li class="header-contact-item">
+							<a href="" class="header-contact-link">İletişim</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<section class="banner">
+		<div class="banner-container">
+			<div class="banner-children">
+				<div class="banner-child">
+					<div class="banner-text" data-aos="zoom-in">
+						<ol class="banner-text-items">
+							<li class="banner-text-item">Kripto Para, </li>
+							<li class="banner-text-item">Yatırım, </li>
+							<li class="banner-text-item">Danışmanlık</li>
+						</ol>
+						<h1>Yüksek Kar Değil, Her Gün Kar!</h1>
+						<p>Yapay zeka yazılımımız geçmişte ki kripto para verileri analiz eder ve %94 ihtimalle günlük en az %2 kar verir.</p>
+						<a href="">Ön Kayıt</a>
+					</div>
+				</div>
+				<div class="banner-child"  data-aos="fade-left">
+					<div class="swiper-container" data-aos="zoom-in">
+				    	<div class="swiper-wrapper">
+				    		<div class="swiper-slide">
+				      			<img src="assets/image/project/slider7.jpg" id="banner-img">
+				      		</div>
+				      		<div class="swiper-slide">
+				      			<img src="assets/image/project/slider9.jpg" id="banner-img">
+				      		</div>
+				    		<div class="swiper-slide">
+				      			<img src="assets/image/project/slider6.jpg" id="banner-img">
+				      		</div>
+				      		<div class="swiper-slide">
+				      			<img src="assets/image/project/slider5.jpg" id="banner-img">
+				      		</div>
+				    	</div>
+				    	<!-- Add Pagination -->
+				    	<div class="swiper-pagination"></div>
+				    	<!-- Add Arrows -->
+				    	<div class="swiper-button-next"></div>
+				  	</div>
+				</div>
+			</div>
+		</div>
+	</section>
+  	
+
+
+
+
+
+
+
+
+
+
+
+	<section class="project">
+		<div class="project-container">
+			<div class="project-title">
+				<h1>Danışmanlık</h1>
+				<span>Seçenekler</span>
+			</div>
+			<div class="project-children">
+				<div class="project-child" data-aos="zoom-out">
+					<h5>Sinyal Üyelik</h5>
+					<!-- <img src="assets/image/shape.png" class="project-item-img" data-aos="zoom-out"> -->
+					<span class="project-item-text">Aylık üyelik satın alıyorsunuz biz günde en az bir kez olmak üzere size nereden almanız gerektiğini mesaj olarak gönderiyoruz.</span>
+					<span class="project-child-square"></span>
+					<div class="project-limit">
+						<ol>
+							<li>
+								<span>Kayıtlı</span>
+								<span>12/25</span>
+							</li>
+							<li>
+								<span>Durum</span>
+								<span>Aktif</span>
+							</li>
+						</ol>
+					</div>
+					<div class="project-log">
+						<a href="#"><span>Bilgi Al</span></a>
+						<a href="#">Kayıt Ol</a>
+					</div>
+					
+				</div>
+				<div  class="project-child-icon">
+					<i class="fas fa-long-arrow-alt-right" data-aos="fade-right"></i>
+				</div>
+				<div class="project-child" data-aos="zoom-out">
+					<h5>Premium Üyelik</h5>
+					<!-- <img src="assets/image/shape.png" class="project-item-img" data-aos="zoom-out"> -->
+					<span class="project-item-text">Yatırım hesabımıza parayı(en fazla 10.000$) gönderiyorsunuz biz sizin yerinize yatırım yapıp aylık %10 kar veriyoruz.</span>
+					<span class="project-child-square"></span>
+					<div class="project-limit">
+						<ol>
+							<li>
+								<span>Kayıtlı</span>
+								<span>15/15</span>
+							</li>
+							<li>
+								<span>Durum</span>
+								<span>Pasif</span>
+							</li>
+						</ol>
+					</div>
+					<div class="project-log">Kayıt Bitti</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+	<section class="blog">
+		<div class="blog-container">
+			<div class="blog-title">
+				<h1>Nasıl Başarıyoruz</h1>
+				<span>Sık Sorulan Sorular</span>
+			</div>
+			<!-- Swiper -->
+		  	<div class="swiper-container-b">
+		    	<div class="swiper-wrapper">
+		    		<div class="swiper-slide">
+		      			<div class="blog-children">
+							<div class="blog-child">
+								<img src="assets/image/project/slider10.jpg" class="blog-img" data-aos="fade-right">
+								<div class="blog-name" data-aos="fade-up">
+									<span>Ali Yıldız</span>
+									<span>Üye Değil</span>
+									<ol class="blog-name-items">
+										<li class="blog-name-item">
+											<i class="fab fa-facebook-f"></i>
+										</li>
+										<li class="blog-name-item"i>
+											<i class="fab fa-twitter"></i>
+										</li>
+										<li class="blog-name-item"i>
+											<i class="fab fa-instagram"></i>
+										</li>
+									</ol>
+								</div>
+							</div>
+							<div class="blog-child" data-aos="fade-left">
+								<div class="blog-text">
+									<h5>Size Nasıl Güvenirim?</h5>
+									<p>İlk defa bize katılacaksan üyelik formunu doldurup 3 gün boyunca yatırım tavsiyelerimizden yararlanabilirsin. Memnun kaldığın taktirde istediğin üyelik hizmetinden yararlanabilirsin.
+									</p>
+								</div>
+							</div>
+						</div>
+		      		</div>
+		      		<div class="swiper-slide">
+		      			<div class="blog-children">
+							<div class="blog-child">
+								<img src="assets/image/project/slider10.jpg" class="blog-img" data-aos="fade-right">
+								<div class="blog-name" data-aos="fade-up">
+									<span>Ali Ali</span>
+									<span>Premium Üye</span>
+									<ol class="blog-name-items">
+										<li class="blog-name-item">
+											<i class="fab fa-facebook-f"></i>
+										</li>
+										<li class="blog-name-item"i>
+											<i class="fab fa-twitter"></i>
+										</li>
+										<li class="blog-name-item"i>
+											<i class="fab fa-instagram"></i>
+										</li>
+									</ol>
+								</div>
+							</div>
+							<div class="blog-child" data-aos="fade-left">
+								<div class="blog-text">
+									<h5>Nasıl Premium Üye Olurum?</h5>
+									<p>Her kullanıcımızı premium üye yapmıyoruz. Premium üye olabilmek için sinyal üyelik hizmetimizden 3 ay boyunca faydalanmış olmanız gerekiyor.</p>
+								</div>
+							</div>
+						</div>
+		      		</div>
+		      		
+		    	</div>
+		    	<!-- Add Pagination -->
+		    	<div class="swiper-pagination-b swiper-pagination-white"></div>
+		    	<!-- Add Arrows -->
+		    	<div class="swiper-button-next-b swiper-button-white">
+					<i class="fas fa-long-arrow-alt-right"></i>
+		    	</div>
+		    	<div class="swiper-button-prev-b swiper-button-white">
+		    		<i class="fas fa-long-arrow-alt-left"></i>
+		    	</div>
+		  	</div>
+		</div>
+	</section>
+
+
+
+
+<!-- 	<section class="language">
+		<div class="language-children">
+			<div class="language-child">
+				<ol>
+					<li><img src="assets/image/icon/html.png" class="language-icon"></li>
+					<li><img src="assets/image/icon/html.png" class="language-icon"></li>
+				</ol>
+				<ol>
+					<li><img src="assets/image/icon/html.png" class="language-icon"></li>
+					<li><img src="assets/image/icon/html.png" class="language-icon"></li>
+					<li><img src="assets/image/icon/html.png" class="language-icon"></li>
+				</ol>
+				<ol>
+					<li><img src="assets/image/icon/html.png" class="language-icon"></li>
+					<li><img src="assets/image/icon/html.png" class="language-icon"></li>
+				</ol>
+			</div>
+		</div>
+	</section>
+
+ -->
+
+
+
+
+
+	<section class="template">
+		<div class="template-container">
+			<div class="template-children">
+				<div class="template-child">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+	<section class="contact">
+		<div class="project-title">
+			<h1>Bize Katıl</h1>
+			<span>Başvuru</span>
+		</div>
+		<div class="contact-container">
+			<div class="contact-children">
+				<div class="contact-child"></div>
+				<div class="contact-child">
+					<div class="contact-form">
+						<form>
+							<div>
+								<label>Ad Soyad</label>
+								<input type="" name="">
+							</div>
+							<div>
+								<label>Üyelik Seçimi</label>
+								<select>
+									<option>Sinyal Üyelik(Deneme) - Aktif</option>
+									<option>Sinyal Üyelik - Aktif</option>
+									<option>Premium Üyelik - Doldu</option>
+								</select>
+							</div>
+							<div>
+								<label>Mail Adresi</label>
+								<input type="" name="">
+							</div>
+							<div>
+								<label id="check">Sinyallerin yatırım tavsiyesi değil analiz olduğunu biliyorum</label>
+								<input id="check-input" type="checkbox" name="">
+							</div>
+							<button>Gönder</button>
+						</form>
+					</div>
+					<div class="contact-form">
+						<h3>Sinyal Üyelik Detayları</h3>
+						<ol>
+							<li>Sinyal üyeliği, klasik sinyal ve gün içi sinyal olmak üzere 2'ye ayrılıyor.</li>
+							<li>Klasik sinyal, gece 02.45'te size mesaj olarak geliyor, siz de 02.49 da söylenen coinleri o anki fiyattan satın alıyorsunuz.</li>
+							<li>Gün içi sinyal, coinin hareketlerine bakarak alınması gereken değeri anlık olarak size mesaj olarak gönderir.</li>
+							<li>Sinyallerin başarı oranı; gece sinyalleri %92, gün içi gelen anlık sinyaller %96.</li>
+							<li>Başarı oranları %2 kar üzerinden hesaplanmaktadır.</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+	<section class="reference">
+		<div class="reference-container">
+			<div class="project-title">
+				<h1>Hap Bilgiler</h1>
+				<span>Kısa Kısa</span>
+			</div>
+			<div class="reference-children">
+				
+
+				<div class="reference-child" data-aos="zoom-in">
+					<div class="reference-img">
+						<img src="assets/image/project/slider9.jpg">
+					</div>
+					<div class="reference-text">
+						<h3>Yatırımlarımı Nasıl Takip Etmeliyim?</h3>
+						<p>İlk defa bize katılacaksan üyelik formunu doldurup 3 gün boyunca yatırım tavsiyelerimizden yararlanabilirsin. Memnun kaldığın taktirde istediğin üyelik hizmetinden yararlanabilirsin.</p>
+					</div>
+				</div>	
+
+				<div class="reference-child" data-aos="zoom-in">
+					<div class="reference-img">
+						<img src="assets/image/project/slider8.jpg">
+					</div>
+					<div class="reference-text">
+						<h3>Yatırımlarımı Nasıl Takip Etmeliyim?</h3>
+						<p>İlk defa bize katılacaksan üyelik formunu doldurup 3 gün boyunca yatırım tavsiyelerimizden yararlanabilirsin. Memnun kaldığın taktirde istediğin üyelik hizmetinden yararlanabilirsin.</p>
+					</div>
+				</div>	
+
+				<div class="reference-child" data-aos="zoom-in">
+					<div class="reference-img">
+						<img src="assets/image/project/slider7.jpg">
+					</div>
+					<div class="reference-text">
+						<h3>Yatırımlarımı Nasıl Takip Etmeliyim?</h3>
+						<p>İlk defa bize katılacaksan üyelik formunu doldurup 3 gün boyunca yatırım tavsiyelerimizden yararlanabilirsin. Memnun kaldığın taktirde istediğin üyelik hizmetinden yararlanabilirsin.</p>
+					</div>
+				</div>	
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	<footer>
+		<div class="footer-container">
+			<p>perday2.com bütün hakları saklıdır.</p>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+		    document.getElementById("header").style.background = "#f1f3de";
+		  } else {
+		    document.getElementById("header").style.background = "none";
+		  }
+		}
+	</script>
+
+
+
+
+
+
+  	<!-- Swiper JS -->
+  	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  	<!-- Initialize Swiper -->
+  	<script>
+    var swiper = new Swiper('.swiper-container', {
+      	pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+    },
+      	navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    });
+  	</script>
+
+
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  	<script>
+	 	AOS.init();
+	</script>
+
+
+
+
+
+
+
+
+	  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container-b', {
+      spaceBetween: 30,
+      effect: 'fade',
+      pagination: {
+        el: '.swiper-pagination-b',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next-b',
+        prevEl: '.swiper-button-prev-b',
+      },
+    });
+  </script>
+
+</body>
+</html>
